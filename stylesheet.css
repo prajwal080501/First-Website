@@ -1,0 +1,255 @@
+#firstPara {
+    border-radius: 1cm;
+    border: 5px solid blue;
+    background-color: lightcyan;
+    height: 2cm;
+    width: 12cm;
+    padding: 25px 18px 50px 15px;
+    font-family: cursive;
+    margin-left: 25cm;
+    text-align: justify;
+}
+
+#secondPara {
+    border-radius: 1cm;
+    width: 12cm;
+    height: 2cm;
+    border: 5px solid blue;
+    background-color: lightcyan;
+    padding: 25px 15px 50px 25px;
+    font-family: cursive;
+    margin-left: 25cm;
+    margin-top: 1cm;
+    text-align: justify;
+}
+
+#heading2 {
+    width: 10cm;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border: 4px solid black;
+    font-size: 1cm;
+    margin-left: 25cm;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: auto;
+    padding-bottom: 5px;
+    padding: 5px 10px;
+}
+
+#heading2:hover {
+    background-color: purple;
+    color: white;
+    font-size: 1.4cm;
+    border: 4px solid purple;
+}
+
+#thirdPara {
+    border-radius: 1cm;
+    position: absolute;
+    width: 12cm;
+    height: 2cm;
+    border: 5px solid blue;
+    padding: 25px 18px 150px 25px;
+    font-family: cursive;
+    margin-top: 1cm;
+    margin-left: 25cm;
+    background-color: lightcyan;
+    text-align: justify;
+}
+
+#mainBody {
+    background: url("pexels-bri-schneiter-346529.jpg");
+    background-repeat: no-repeat;
+    background-size: 80cm;
+}
+
+#heading1 {
+    text-align: center;
+    margin-right: 6cm;
+    background-color: black;
+    border: 5px solid white;
+    margin: auto;
+    color: white;
+    font-family: cursiveS;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#image {
+    padding-bottom: 20px;
+    width: 2cm;
+    height: 2cm;
+    position: relative;
+    right: 2cm;
+    left: 2cm;
+}
+
+#image:hover {
+    border-bottom: 2cm;
+    size: 5cm;
+}
+
+#instaimage {
+    border-radius: 4cm;
+    position: relative;
+    top: 9cm;
+    bottom: cm;
+    left: 14cm;
+    height: 3cm;
+    width: 3cm;
+    margin-left: 3cm;
+    border: 2px solid black;
+}
+
+#instaimage:hover {
+    border: 5px solid black;
+    background-color: lightslategrey;
+}
+
+#twitterimage {
+    border: 2px solid black;
+    border-radius: 4cm;
+    position: relative;
+    top: 9cm;
+    bottom: 12cm;
+    left: 16cm;
+    right: 5cm;
+    height: 3cm;
+    width: 3cm;
+    right: 5px;
+}
+
+#twitterimage:hover {
+    border: 5px solid black;
+}
+
+#foot {
+    position: relative;
+    bottom: 10cm;
+    top: -0.5cm;
+    right: 6cm;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 200px;
+    margin-left: 15cm;
+}
+
+#btn {
+    position: relative;
+    top: 2cm;
+    left: 0.4cm;
+    border: 2px solid black;
+    background-color: rgb(240, 202, 240);
+    padding: 20px;
+    width: 9%;
+    margin-left: 30cm auto;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5cm;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#btn:hover {
+    border: 5px solid black;
+    animation-duration: 5s;
+    background-color: lightslategrey;
+}
+
+#readMore {
+    margin-top: 10cm;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    font-size: 17px;
+    color: red;
+    animation-play-state: initial;
+    animation-duration: 1s;
+    border: 2px solid black;
+}
+
+a:visited {
+    color: purple;
+}
+
+.navbar {
+    border-radius: 2cm;
+    border: 2px solid black;
+    margin-top: 3cm;
+    background-color: black;
+    color: black;
+    height: 75px;
+    width: 36cm;
+    margin-left: 1cm;
+    text-decoration: none;
+}
+
+.navbar li {
+    position: relative;
+    left: 3.5cm;
+    bottom: 2.5cm;
+    border-radius: 3cm;
+    margin: 5px 5px;
+    background-color: black;
+    border: 2px solid blac;
+    float: left;
+    padding: 5px;
+    list-style: none;
+}
+
+.navbar li a {
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    border-radius: 4cm;
+    font-size: 0.5cm;
+    background-color: purple;
+    color: white;
+}
+
+.search {
+    padding-top: 6px;
+}
+
+#search {
+    position: relative;
+    bottom: 2.5cm;
+    padding: 5px;
+    margin-bottom: 105px;
+    border: 3px solid black;
+    border-radius: 4cm;
+    padding-left: 10px;
+    margin-left: 17cm;
+    text-decoration: none;
+}
+
+#search:hover {
+    border: 5px solid red;
+}
+
+.container2 {
+    position: relative;
+    top: 13cm;
+    height: 5cm;
+    padding: 12px 8px;
+}
+
+.bottomBox {
+    border-radius: 3cm;
+    background-color: black;
+    marigin-top: 200cm;
+    position: relative;
+    border: 5px solid white;
+    height: 5cm;
+}
